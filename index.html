@@ -13,9 +13,27 @@
 <body>
     <div class="jumbotron jumbotron-fluid text-center text-white bg-info">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Weather Dashboard</h1>
         </div>
+    <nav class="navbar navbar-light" style="background-color: #176196;">
+      <form>
+        <div class="form-group input-group">
+          <span style="width: 55px;" class="input-group-addon"></span>
+        </div>
+       <input type="search" id="myCity" name="q"><button type="button" class="btn btn-outline-dark">City <i class="fa fa-search">
+      </i>
+      </button>
+      </form>
+    </nav>
+    <h2 id="current-city">City Name: (date) (icon)</h2>
+        <p class="temperature">Temperature: </p>
+        <p class="humidity">Humidity: </p>
+        <p class="wind-speed">Wind Speed: </p>
+        <p class="UV">UV Index: </p>
+
+        </p>
+        </div>
+    </div>
         <div class="card-deck">
             <div class="card">
               <img src="..." class="card-img-top" alt="...">
